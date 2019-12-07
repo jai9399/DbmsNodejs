@@ -1,0 +1,34 @@
+body{
+      background-color: #232323;
+      margin-left: 0px;
+      margin:0px;
+       }
+  .navbar-nav{
+      text-align: center;
+  }
+  .nav-item{
+      font-size:20px;
+      margin:10px;
+  }
+.containers{
+    margin-top:100px;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    margin:50px;
+    color:white;
+    border-width:0;
+    background-color: 232323;
+    transition: all 1s;
+    border-width: 3px;
+    border-color: #Dc3545;
+}
+.card:hover{
+    box-shadow: 6px 6px 10px #Dc3545;
+}
+.btn{
+    margin-top:10px;
+    align-self: center;
+}

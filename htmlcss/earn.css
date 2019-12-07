@@ -1,0 +1,32 @@
+body{
+    background-color: #232323;
+    margin-left: 0px;
+    margin:0px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    font-size:20px;
+    margin:10px;
+}
+.containers{
+    margin-top:60px;
+    width:1500px;
+    padding:0px;
+    margin-left:09px;
+}
+body div{
+    display:flex;
+}
+body div div{
+     flex:1;
+}
+body  p{
+    font-size : 40px;
+    color:white;
+    text-align: center;
+    margin-top:20px;
+    font-family: 'Kaushan Script', cursive;
+
+}

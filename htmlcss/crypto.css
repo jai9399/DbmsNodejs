@@ -1,0 +1,120 @@
+body{
+    background-color: #232323;
+    margin-left: 0px;
+}
+.container{
+    margin-top:20px;
+    height:400px;
+    width:600px;
+}
+
+h2{
+    color:White;
+    text-align:center;
+    margin-bottom: 30px;
+    font-size:40px;
+    text-decoration: underline;
+}
+.collapse{
+    width:100px;
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    font-size:20px;
+    margin:10px;
+}
+
+.carousel-inner{
+    margin-top:100px;
+    border:10px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 10%;
+    margin-bottom: 200px;
+} 
+.jumbotron{
+    margin-top:250px;
+    background-color:232323;
+    color:white;
+}
+@media (max-width :500px){
+    .carousel-inner{
+        height:auto;
+        width:auto;
+    }
+}
+.jumbotron a{
+    margin-top:-20px;
+}
+#cont2{
+
+    color:white;
+    width:100%;
+}
+
+#cont2 span{
+    position: relative;
+    right:-30px;
+    
+    font-size:50px;
+    font-weight:100;
+    padding:10px;
+    text-align: center;
+}
+.row{
+        
+ margin:20px;
+}
+.col-lg-6{
+    font-size:40px;
+    font-weight: 50;
+    text-decoration:none;
+    border-radius:10%;
+   }
+ .row div:hover{
+             background-color: grey;
+ }  
+
+
+#img4{
+    position: absolute;
+    margin:0px;
+    width:100%;
+    height:200px;
+    right:-8px;
+    background-size:100%;
+    
+    width:100%;
+    top:-500px;
+}
+.cont1{
+    width:100%;
+}
+#jumbo1{
+    
+    color:white;
+    margin-top:-120px;
+}
+#Services{
+    width:100%;
+    color:white;
+    text-align: center;
+    font-size:50px;
+    margin-top:-10px;
+    display: flex;
+    background-color: #DC3545;
+}
+#Services div{
+    flex:1;
+    flex-wrap:wrap;
+    font-weight: bold;
+}
+#Services div div:hover{
+   background-color: #DC3545;
+}
+#Services div div p{
+        font-weight: 100;
+        font-size:25px;
+}

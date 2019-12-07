@@ -1,0 +1,51 @@
+body{
+    background-color: #232323;
+    margin-left: 0px;
+    margin:0px;
+     }
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    font-size:20px;
+    margin:10px;
+}
+.container{
+    margin-top:150px;
+    color:white;
+    text-align: center;
+    animation-name:run;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    font-size:30px;
+    font-family:'Kaushan Script';
+}
+.container p{
+    font-size:50px;
+    
+}
+@keyframes run{
+    0%{
+        transform:translate(0,-100%);
+
+    }
+    100%{
+        transform: translate(0,+100%);
+    }
+}
+body{
+    justify-content: center;
+    align-items: center;
+}
+#funds{
+    position: absolute;
+    right:665px;
+    top:500px;
+    font-family: 'Kaushan Script';
+    color: white;
+    font-size:25px;
+    text-align: center;
+    }
+ #funds button{
+     margin-top:10px;
+ }

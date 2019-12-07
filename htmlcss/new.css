@@ -1,0 +1,39 @@
+body{
+    background-color: #232323;
+    margin-left: 0px;
+    
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-item{
+    font-size:20px;
+    margin:10px;
+}
+h1{
+     position: absolute;
+     bottom:300px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container{
+
+     margin-top:125px;
+}
+.row:first-child{
+      background-color: #DC3545;
+      font-family: 'Kaushan Script', cursive;
+}
+.row{
+display: block;
+  font-size:30px;
+  margin:50px;
+  color:white;
+  text-align: center;
+}
+.row p{
+  font-size:20px;
+}
+.row:hover{
+    background-color: #DC3545;
+}
